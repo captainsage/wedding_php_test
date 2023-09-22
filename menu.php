@@ -9,7 +9,6 @@
             echo "<li ><a href=$pageName.php>$pageName</a></li> ";
         }
         function activeMenu($active) {
-            //These are for displaying "" symbols int the argument of echo
             $menuClass = "menubar";
             $options = array("home", "info", "gallery", "links");
             echo "<div class=$menuClass> ";

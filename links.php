@@ -9,18 +9,9 @@
         <?php
             include "top.html";
             include "menu.php";
-            activeMenu("link");
+            activeMenu("links");
         ?>
-        <!--<div class="menubar">
-            <nav>
-                <ul>
-                    <li ><a href="home.php">Home</a></li>
-                    <li ><a href="info.php" href="#">Info</a></li>
-                    <li ><a href="gallery.php">Gallery</a></li>
-                    <li ><a class="active" href="#">Links</a></li>
-                </ul>
-            </nav>
-        </div>-->  
+
         <div class="container">
             <div class="twocol">
                 <ul class="left_list">

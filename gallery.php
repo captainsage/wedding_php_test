@@ -12,16 +12,7 @@
             include "menu.php";
             activeMenu("gallery");
         ?>
-        <!--<div class="menubar">
-            <nav>
-                <ul>
-                    <li ><a href="home.php">Home</a></li>
-                    <li ><a href="info.php" href="#">Info</a></li>
-                    <li ><a class="active" href="#">Gallery</a></li> 
-                    <li ><a href="links.php">Links</a></li>
-                </ul>
-            </nav>
-        </div>-->
+
         <div class="bump"></div>
         <div class="container">
             <div class="twocol">
@@ -30,7 +21,6 @@
                 <img class="imggallery" src="_images/sample_img (3).jpg" alt = "valami nim a jao" onclick="display_img(this)">
                 <img class="imggallery" src="_images/sample_img (5).jpg" alt = "valami nim a jao" onclick="display_img(this)">
                 <img class="imggallery" src="_images/sample_img (7).jpg" alt = "valami nim a jao" onclick="display_img(this)">
-                <!--<img class="imggallery" src="_images/sample_img (9).jpg" alt = "valami nim a jao" onclick="display_img(this)">-->
                 <img class="imggallery" src="_images/sample_img (11).jpg" alt = "valami nim a jao" onclick="display_img(this)">
                 <img class="imggallery" src="_images/sample_img (13).jpeg" alt = "valami nim a jao" onclick="display_img(this)">
             </div>
@@ -46,7 +36,7 @@
             </div>
             <div id="myModal" class="modal">
                 <span class="close" onclick="hide_img()">&times;</span>
-                <img class="modal-content" id="img01" alt="valami nim jao">
+                <img class="modal-content" id="img01" alt="error">
                 <div class="bump2"></div>
             </div>
         </div>

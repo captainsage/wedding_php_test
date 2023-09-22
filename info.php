@@ -3,10 +3,6 @@
     <head>
         <title>V&M</title>
         <link href="_css/main.css" rel = "stylesheet" type="text/css"/>
-        <!--<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-
-        <link rel="stylesheet" type="text/css" href="./style.css" />
-        <script type="module" src="./index.js"></script>-->
     </head>
 
     <body id="links">
@@ -15,16 +11,7 @@
             include "menu.php";
             activeMenu("info");
         ?>
-        <!--<div class="menubar">
-            <nav>
-                <ul>
-                    <li ><a href="home.php">Home</a></li>
-                    <li ><a class="active" href="#">Info</a></li>
-                    <li ><a href="gallery.php">Gallery</a></li>
-                    <li ><a href="links.php" href="#">Links</a></li>
-                </ul>
-            </nav>
-        </div>-->  
+
         <div class="container">
             <header>Helyszín</header>
             <div class="bump"></div>

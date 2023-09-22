@@ -11,16 +11,6 @@
             include "menu.php";
             activeMenu("home");
         ?>
-        <!--<div class="menubar">
-            <nav>
-                <ul>
-                    <li ><a class="active" href="#">Home</a></li>
-                    <li ><a href="info.php" href="#">Info</a></li>
-                    <li ><a href="gallery.php">Gallery</a></li>
-                    <li ><a href="links.php">Links</a></li>
-                </ul>
-            </nav>
-        </div> --> 
 
         <div class="bump"></div>
         <div class="container">
@@ -30,23 +20,18 @@
                 </p>
                 <div class="bump"></div>
                 <?php
-                    //phpinfo();
                     $servername = "localhost";
                     $username = "root";
-                    //$password = "";
                     $dbname = "guest_login";
 
-                    // Create a connection
                     $conn =  new mysqli($servername, $username, "", $dbname);
 
-                    // Check connection
                     if ($conn->connect_error) {
                         die("Connection failed: " . $conn->connect_error);
                     }
 
                 ?>
             </div>
-            <!--<div id="reg_link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfgGq1PP9znoLMe3DROPGDrLZrzLjWjqCiH6C1D7SrSTDOb8w/viewform?usp=sf_link">Letsgo</a></div>-->
             <div>
                 <form method="post" action="home.php">
                     <!--<?php //$_POST["name"] = " "; ?>-->
@@ -88,7 +73,6 @@
         <?php
             include "bot.html";
         ?>
-        <!--<footer>2023</footer>-->
 
     </body>
 </html>
